@@ -5,7 +5,7 @@ import os
 
 api_key = os.getenv('OPENAI_API_KEY')
 openai = OpenAI(api_key= api_key)
-TOKEN = "7168720168:AAGbe1o5o1waREQ7RlsJln_FtqTSDEEnEx0"
+TOKEN = ""
 
 
 def get_updates(offset):
